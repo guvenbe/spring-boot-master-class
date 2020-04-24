@@ -1,4 +1,4 @@
-package com.in28minutes.springboot.web.service;
+package com.in28minutes.springboot.service;
 
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
