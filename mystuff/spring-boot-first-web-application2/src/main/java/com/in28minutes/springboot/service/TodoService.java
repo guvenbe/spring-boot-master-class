@@ -31,8 +31,9 @@ public class TodoService {
         }
         return filteredTodos;
     }
-    
+
     public Todo retrieveTodo(int id) {
+        List<Todo> filteredTodos = new ArrayList<Todo>();
         for (Todo todo : todos) {
             if (todo.getId()==id) {
                 return todo;
@@ -40,6 +41,7 @@ public class TodoService {
         }
         return null;
     }
+
 
     public void updateTodo(Todo todo){
     		todos.remove(todo);
